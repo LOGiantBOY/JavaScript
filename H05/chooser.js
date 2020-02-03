@@ -28,10 +28,10 @@ function createLionImages() {
     }
 }
 function maakFavoriet(id) {
-    nosofavoriet = document.getElementsByClassName("favoriet");
+    notsofavoriet = document.getElementsByClassName("favoriet");
 
-    for (var i = 0; i < nosofavoriet.length; i++) {
-        nosofavoriet[i].style.backgroundImage = "none";
+    for (var i = 0; i < notsofavoriet.length; i++) {
+        notsofavoriet[i].style.backgroundImage = "none";
     }
 
     favoriet = document.getElementById("favoriet_" + id);
